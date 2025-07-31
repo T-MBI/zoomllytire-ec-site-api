@@ -10,7 +10,7 @@ app.use(express.json());
 // サンプル注文データ
 let orders = [
     {
-        id: "10001",
+        id: "1001",
         customer_email: "janet.smith@example.com",
         customer_name: "田中 花子",
         customer_address: "〒150-0001 東京都渋谷区神宮前1-1-1",
@@ -27,13 +27,13 @@ let orders = [
         created_at: "2025-01-26T11:30:00Z"
     },
     {
-        id: "10002",
+        id: "1002",
         customer_email: "john.doe@example.com",
-        customer_name: "佐藤 太郎",
+        customer_name: "佐藤 花子",
         customer_address: "〒530-0001 大阪府大阪市北区梅田1-1-1",
-        delivery_date: "2025-01-28",
+        delivery_date: "2025-08-08",
         delivery_time: "14-18",
-        status: "配送中",
+        status: "配送準備中",
         store: "2031",
         location: "In Store",
         link: "https://portal.zoomllytire.net?order=10002",
@@ -44,7 +44,7 @@ let orders = [
         created_at: "2025-01-24T14:15:00Z"
     },
     {
-        id: "10003",
+        id: "1003",
         customer_email: "mary.johnson@example.com",
         customer_name: "鈴木 美恵",
         customer_address: "〒220-0011 神奈川県横浜市西区高島1-1-1",
@@ -61,7 +61,7 @@ let orders = [
         created_at: "2025-01-25T09:20:00Z"
     },
     {
-        id: "10004",
+        id: "1004",
         customer_email: "robert.brown@example.com",
         customer_name: "高橋 一郎",
         customer_address: "〒460-0001 愛知県名古屋市中区三の丸1-1-1",
@@ -78,7 +78,7 @@ let orders = [
         created_at: "2025-01-25T16:45:00Z"
     },
     {
-        id: "10005",
+        id: "1005",
         customer_email: "lisa.davis@example.com",
         customer_name: "山田 麻美",
         customer_address: "〒810-0001 福岡県福岡市中央区天神1-1-1",
@@ -95,7 +95,7 @@ let orders = [
         created_at: "2025-01-26T11:30:00Z"
     },
     {
-        id: "10006",
+        id: "1006",
         customer_email: "david.wilson@example.com",
         customer_name: "伊藤 健太",
         customer_address: "〒980-0021 宮城県仙台市青葉区中央1-1-1",
@@ -112,7 +112,7 @@ let orders = [
         created_at: "2025-01-22T13:15:00Z"
     },
     {
-        id: "10007",
+        id: "1007",
         customer_email: "sarah.garcia@example.com",
         customer_name: "渡辺 さくら",
         customer_address: "〒700-0901 岡山県岡山市北区本町1-1-1",
@@ -129,7 +129,7 @@ let orders = [
         created_at: "2025-01-24T08:45:00Z"
     },
     {
-        id: "10008",
+        id: "1008",
         customer_email: "michael.martinez@example.com",
         customer_name: "加藤 雄二",
         customer_address: "〒730-0011 広島県広島市中区基町1-1-1",
@@ -147,7 +147,7 @@ let orders = [
         created_at: "2025-01-25T15:20:00Z"
     },
     {
-        id: "10009",
+        id: "1009",
         customer_email: "jennifer.lopez@example.com",
         customer_name: "松本 由美",
         customer_address: "〒760-0017 香川県高松市番町1-1-1",
@@ -164,7 +164,7 @@ let orders = [
         created_at: "2025-01-26T10:15:00Z"
     },
     {
-        id: "10010",
+        id: "1010",
         customer_email: "william.anderson@example.com",
         customer_name: "小林 信一",
         customer_address: "〒870-0001 大分県大分市城崎町1-1-1",
