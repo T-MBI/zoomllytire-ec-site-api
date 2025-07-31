@@ -18,7 +18,7 @@ let orders = [
         delivery_time: "09-12",
         status: "配送完了",
         store: "2031",
-        location: "In Store",
+        location: "自宅配送",
         link: "https://portal.zoomllytire.net?order=10001",
         items: [
             { name: "オールシーズンタイヤ", price: 18000, quantity: 4, image: "🌤️" }
@@ -35,12 +35,12 @@ let orders = [
         delivery_time: "14-18",
         status: "配送準備中",
         store: "2031",
-        location: "In Store",
+        location: "自宅配送",
         link: "https://portal.zoomllytire.net?order=10002",
         items: [
-            { name: "ウィンタータイヤ（スタッドレス）", price: 22000, quantity: 4, image: "❄️" }
+            { name: "ランフラットタイヤ", price: 35000, quantity: 4, image: "🛡️" }
         ],
-        total: 88000,
+        total: 140000,
         created_at: "2025-01-24T14:15:00Z"
     },
     {
